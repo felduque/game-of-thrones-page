@@ -1,12 +1,12 @@
-import './App.css'
+import RouterPrincipal from './Routes/RouterPrincipal.jsx'
 
-function App() {
+export default function App() {
 
   return (
-    <div className="App">
-    <h1> Home</h1>
+    <div>
+      <RouterPrincipal />
+
     </div>
   )
 }
 
-export default App
