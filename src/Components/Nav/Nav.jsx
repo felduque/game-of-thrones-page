@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import style from './Nav.module.css'
 
 export default function Nav (props) {
   return (
-    <div>
+    <div className={style.container}>
       <nav>
         <ul>
           <li>

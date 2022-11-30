@@ -1,0 +1,69 @@
+.card_content{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 0 auto;
+  width: 99%;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  margin: 0 auto;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+} */
+
+.card_designed {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 300px;
+  border: 4px solid black;
+  margin: 15px;
+  background-color: rgb(101, 240, 175);
+}
+
+.imagen {
+  width: 300px;
+  height: 320px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color:rgb(0, 112, 210);
+  position: relative;
+}
+
+.boton {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.boton button {
+  --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+ font-size: 17px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+}
+
+.boton button {
+  border: 3px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+ }
